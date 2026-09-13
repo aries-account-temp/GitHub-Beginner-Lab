@@ -10,8 +10,9 @@ namespace StudentProfile
         {
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
-            int age = 20;
+            int age = 21;
             ApplicationConfiguration.Initialize();
+            // Student A change: age set to 21
             Application.Run(new Form1());
         }","explanation":"Add baseline int age = 20 in Main for conflict demo"}```
     }
